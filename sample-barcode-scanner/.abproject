@@ -5,24 +5,24 @@
   "ProjectName": "sample-barcode-scanner",
   "IsRunnable": "true",
   "AndroidPermissions": [
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE",
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
     "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_SMS",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
-    "android.permission.READ_CONTACTS",
-    "android.permission.WRITE_CONTACTS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
     "android.permission.ACCESS_NETWORK_STATE",
     "android.permission.ACCOUNT_MANAGER",
+    "android.permission.BROADCAST_STICKY",
+    "android.permission.CAMERA",
     "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
     "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.BROADCAST_STICKY"
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "DeviceOrientations": [
     "Portrait",
@@ -38,11 +38,11 @@
     "2"
   ],
   "iOSBackgroundMode": [],
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "CorePlugins": [
+    "com.phonegap.plugins.barcodescanner@1.2.8",
     "org.apache.cordova.device",
-    "org.apache.cordova.splashscreen",
-    "com.phonegap.plugins.barcodescanner"
+    "org.apache.cordova.splashscreen"
   ],
   "DisplayName": "Barcode",
   "WP8SupportedResolutions": [
@@ -52,5 +52,12 @@
   ],
   "Author": "",
   "Description": "sample-barcode-scanner",
-  "Framework": "Cordova"
+  "Framework": "Cordova",
+  "projectVersion": "1",
+  "WP8PublisherID": "{35113abe-67e8-4422-8f5b-befe03bf64d6}",
+  "WP8ProductID": "{670c345c-75cf-47ab-a3eb-53f552224980}",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8Publisher": "",
+  "WP8TileTitle": ""
 }
