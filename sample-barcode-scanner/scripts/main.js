@@ -33,19 +33,20 @@ App.prototype = {
             cordova.plugins.barcodeScanner.scan(
                 function(result) {
                     if (!result.cancelled) {
-                        that._addMessageToLog(result.format + " | " + result.text);    
+                        that._addMessageToLog(result.format, result.text);    
                     }
                 }, 
                 function(error) {
-                    console.log("Scanning failed: " + error);
+                    alert("Scanning failed: " + error);
                 });
         }
     },
 
-    _addMessageToLog: function(message) {
+    _addMessageToLog: function(format, text) {
         var that = this,
-        currentMessage = that.resultsField.innerHTML;
-        
-        that.resultsField.innerHTML = currentMessage + message + '<br />'; 
+        currentMessage = that.resultsField.innerHTML,
+        html = '<div class="row"><div class="col u-text-right"><label class="u-text-bold">' + format + '</label></div><div class="col u-text-left"><span class="u-color-accent">' + text + '</span></div></div>';
+		
+        that.resultsField.innerHTML = currentMessage + html;
     }
 }

@@ -1,7 +1,7 @@
 Barcode Scanner
 ===================
 
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-barcode-scanner" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-barcode-scanner" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Run in the Platform" title="Run in the Platform" /></a>  
 
 <a id="top"></a>
 * [Overview](#overview)
@@ -11,9 +11,15 @@ Barcode Scanner
 
 This sample shows you how to use the BarcodeScanner API to scan and decode barcodes in your app. The app uses the camera to scan the codes. The BarcodeScanner is included in the Telerik Verified Plugins Marketplace.
 
+<<<<<<< HEAD
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Windows Phone SDK 8.1, Apache Cordova 4.0.0, BarcodeScanner 1.2.9
+=======
+> *Supported mobile platforms:* iOS 7.1+, Android 4.4+, Windows Phone 8.1+
+
+> *Developed with:* Windows Phone SDK 8.1, Apache Cordova 4.0.0, BarcodeScanner 2.0.0
+>>>>>>> Update the styles and markup to the new theme.
 
 [Back to Top](#top)
 
@@ -21,7 +27,7 @@ This sample shows you how to use the BarcodeScanner API to scan and decode barco
 
 Platform | Home
 ---|---
-All | ![](https://raw.githubusercontent.com/Icenium/sample-barcode-scanner/master/screenshots/home.jpg)
+All | ![](screenshots/home.jpg)
 
 [Back to Top](#top)
 
