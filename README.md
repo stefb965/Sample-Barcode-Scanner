@@ -11,15 +11,9 @@ Barcode Scanner
 
 This sample shows you how to use the BarcodeScanner API to scan and decode barcodes in your app. The app uses the camera to scan the codes. The BarcodeScanner is included in the Telerik Verified Plugins Marketplace.
 
-<<<<<<< HEAD
-> *Supported mobile platforms:* iOS, Android, Windows Phone
->
-> *Developed with:* Windows Phone SDK 8.1, Apache Cordova 4.0.0, BarcodeScanner 1.2.9
-=======
 > *Supported mobile platforms:* iOS 7.1+, Android 4.4+, Windows Phone 8.1+
 
 > *Developed with:* Windows Phone SDK 8.1, Apache Cordova 4.0.0, BarcodeScanner 2.0.0
->>>>>>> Update the styles and markup to the new theme.
 
 [Back to Top](#top)
 
