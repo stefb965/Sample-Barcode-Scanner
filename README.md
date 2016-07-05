@@ -21,7 +21,7 @@ This sample shows you how to use the BarcodeScanner API to scan and decode barco
 
 Platform | Home
 ---|---
-All | ![](screenshots/home.jpg)
+All | ![](https://raw.githubusercontent.com/Icenium/Sample-Barcode-Scanner/master/screenshots/home.jpg)
 
 [Back to Top](#top)
 
